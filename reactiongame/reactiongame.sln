@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C4B7F5CE-ADED-C22B-CD7A-6226821F83BC}") = "reactiongame", "Assembly-CSharp-firstpass.csproj", "{22BDD948-82BD-45C6-92AE-60C58F042761}"
+EndProject
+Project("{C4B7F5CE-ADED-C22B-CD7A-6226821F83BC}") = "reactiongame", "Assembly-CSharp.csproj", "{D169A41B-E90D-1B57-BAB6-E93832E7F1B2}"
+EndProject
+Project("{C4B7F5CE-ADED-C22B-CD7A-6226821F83BC}") = "reactiongame", "Assembly-CSharp-Editor.csproj", "{D8B6939E-8849-003C-7D17-51CBE9AE0AAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22BDD948-82BD-45C6-92AE-60C58F042761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BDD948-82BD-45C6-92AE-60C58F042761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BDD948-82BD-45C6-92AE-60C58F042761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BDD948-82BD-45C6-92AE-60C58F042761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D169A41B-E90D-1B57-BAB6-E93832E7F1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D169A41B-E90D-1B57-BAB6-E93832E7F1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D169A41B-E90D-1B57-BAB6-E93832E7F1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D169A41B-E90D-1B57-BAB6-E93832E7F1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8B6939E-8849-003C-7D17-51CBE9AE0AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8B6939E-8849-003C-7D17-51CBE9AE0AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8B6939E-8849-003C-7D17-51CBE9AE0AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8B6939E-8849-003C-7D17-51CBE9AE0AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
