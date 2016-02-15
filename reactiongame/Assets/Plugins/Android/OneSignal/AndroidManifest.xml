@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.onesignal.onesignalsdk"
+          android:versionName="1.0"
+          android:versionCode="1">
+  <application> 
+    <activity android:name="com.onesignal.NotificationOpenedActivity" android:theme="@android:style/Theme.NoDisplay"/>
+    <service android:name="com.onesignal.GcmIntentService" />
+  </application>
+  
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+</manifest>
